@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    
+}
+
+.icon-button{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100px;
+height: 100px;
+color: black;
+background: white;
+border: none;
+outline: none;
+}
+
+.icon-button.badge{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+
+
