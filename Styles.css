@@ -6,12 +6,14 @@ font-family: 'Courier New', Courier, monospace;
 
 .badges{
 
-    
+    width: 600px;
     border: 2px solid var(--border-color);
     padding: 1rem;
     border-radius: 5px;
     margin: 1rem;
-   
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
     
 
 }
@@ -24,10 +26,10 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .badge-elements{
-    width: 200px;
+    
     margin: 1rem;
-    display: flex;
-    flex-direction: column;
+    
+    
 
 
 }
@@ -40,6 +42,29 @@ font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     border-radius: 50%;
 
+}
+.badge-button{
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    
+}
+
+.badge-button:hover{
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    cursor: pointer;
 }
 
 
@@ -81,7 +106,55 @@ outline: none;
 /* Text with small badge */
 .textbadge1{
     position: absolute;
-    left: 13.7rem;
-    top:10.6rem;
+    left: 13.5rem;
+    top:11.6rem;
   
+}
+
+.textbadge2{
+    position: absolute;
+    padding: 5px 7px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    border-radius: 50%;
+    left: 16rem;
+    top:13.6rem;
+  
+}
+.textbadge3{
+    position: absolute;
+    background-color: 	#ff1493;
+    left: 21rem;
+    top:15.8rem;
+  
+}
+.textbadge4{
+    position: absolute;
+    left: 15rem;
+    top:19.8rem;
+  
+}
+
+
+.email-button{
+   
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: white;
+    border: none;
+    outline: none;
+
+}
+.email-button:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.email-button:active {
+   background: cornsilk;
+}
+
+
+p{
+    font-weight: 600;
 }
